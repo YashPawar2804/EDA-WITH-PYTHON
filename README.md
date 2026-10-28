@@ -52,7 +52,7 @@ The original dataset contains **9,827 rows and 9 columns**. The notebook selects
 
 **Dataset preview image:** Add a screenshot of `df.head()` or the prepared dataset here.
 
-![Dataset Preview](images/06_dataset_preview.jpeg)
+![Dataset Preview](06_dataset_preview.jpeg)
 
 ## 🔎 Analysis & Visual Results
 
@@ -62,7 +62,7 @@ The notebook investigates the five questions below. Add the corresponding notebo
 
 Identify the genre that occurs most often after splitting and counting individual genre values.
 
-![Most Frequent Genre](images/01_most_frequent_genre.png)
+![Most Frequent Genre](01_most_frequent_genre.png)
 
 **Notebook observation:** Drama is the most frequent genre in the dataset's genre-level analysis.
 
@@ -70,7 +70,7 @@ Identify the genre that occurs most often after splitting and counting individua
 
 Compare the number of records in each vote-average category created during preprocessing.
 
-![Vote Average Categories](images/02_vote_average_categories.png)
+![Vote Average Categories](02_vote_average_categories.png)
 
 **Notebook observation:** The notebook groups vote averages into `not_popular`, `below_avg`, `average`, and `popular`. The displayed counts depend on whether records are counted before or after genres are expanded.
 
@@ -78,7 +78,7 @@ Compare the number of records in each vote-average category created during prepr
 
 Find the maximum value in the `Popularity` column and inspect the corresponding title and genre rows.
 
-![Highest Popularity Movie](images/03_highest_popularity.png)
+![Highest Popularity Movie](03_highest_popularity.png)
 
 **Notebook observation:** *Spider-Man: No Way Home* has the highest popularity score in the notebook output, with the genres Action, Adventure, and Science Fiction.
 
@@ -86,7 +86,7 @@ Find the maximum value in the `Popularity` column and inspect the corresponding 
 
 Find the minimum value in the `Popularity` column and inspect all matching records.
 
-![Lowest Popularity Movie](images/04_lowest_popularity.png)
+![Lowest Popularity Movie](04_lowest_popularity.png)
 
 **Notebook observation:** The minimum popularity score is **13.354**. The notebook output shows tied records for *The United States vs. Billie Holiday* and *Threads*, with genre rows associated with each title.
 
@@ -94,7 +94,7 @@ Find the minimum value in the `Popularity` column and inspect all matching recor
 
 Explore the distribution of movie release years using a histogram.
 
-![Movie Releases by Year](images/05_releases_by_year.png)
+![Movie Releases by Year](05_releases_by_year.png)
 
 **Notebook observation:** The notebook's conclusion identifies **2020** as the year with the highest number of movie releases.
 
@@ -129,13 +129,13 @@ Netflix-Movie-Data-Analysis/
 ├── NETFLIX_DATA_ANALYSIS.ipynb
 ├── mymoviedb.csv
 ├── README.md
-└── images/
-    ├── 01_most_frequent_genre.png
-    ├── 02_vote_average_categories.png
-    ├── 03_highest_popularity.png
-    ├── 04_lowest_popularity.png
-    ├── 05_releases_by_year.png
-    └── 06_dataset_preview.png
+└──
+├── 01_most_frequent_genre.png
+├── 02_vote_average_categories.png
+├── 03_highest_popularity.png
+├── 04_lowest_popularity.png
+├── 05_releases_by_year.png
+└── 06_dataset_preview.png
 ```
 
 **Image tip:** Save or capture the relevant chart/table outputs from the notebook with these filenames. GitHub will display the images automatically when the paths match. If you do not have an image ready, remove that image line until you add it.
